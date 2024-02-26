@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cartegory/index",
+    "pages/cart/index",
+    "pages/my/index",
+    "pages/search/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "鑫尚制衣",
+    "navigationBarBackgroundColor": "#FF5700"
+    
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#FF5700",
+    "backgroundColor": "#fafafa",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icons/_home.png",
+      "selectedIconPath": "icons/home.png"
+    },
+    {
+      "pagePath": "pages/cartegory/index",
+      "text": "分类",
+      "iconPath": "icons/_category.png",
+      "selectedIconPath": "icons/category.png"
+    },
+    {
+      "pagePath": "pages/cart/index",
+      "text": "购物车",
+      "iconPath": "icons/_cart.png",
+      "selectedIconPath": "icons/cart.png"
+    },
+    {
+      "pagePath": "pages/my/index",
+      "text": "我的",
+      "iconPath": "icons/_my.png",
+      "selectedIconPath": "icons/my.png"
+    }
+  ]
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
