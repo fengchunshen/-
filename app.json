@@ -8,9 +8,7 @@
   ],
   "window": {
     "navigationBarTextStyle": "white",
-    "navigationBarTitleText": "鑫尚制衣",
     "navigationBarBackgroundColor": "#FF5700"
-    
   },
   "tabBar": {
     "color": "#999",
